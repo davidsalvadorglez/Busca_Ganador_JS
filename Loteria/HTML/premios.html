@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../CSS/premios.css" />
+    <title>Lotería</title>
+</head>
+<body>
+    <table width="500" border="1" summary="Búsqueda de premios">
+        <caption>
+            Escribe el número a buscar
+        </caption>
+        <tr>
+            <td>Tu número: </td>
+            <td colspan="3" align="center"><input type="text" id="txtin"></td>
+        </tr>
+        <tr>
+            <td>
+                Buscar por:
+            </td>
+            <td>
+                <input type="radio" name="tipop" value="C"><label>Nº Completo</label>
+            </td>
+            <td>
+                <input type="radio" name="tipop" value="R"><label>Reintegro</label>
+            </td>
+            <td>
+                <input type="radio" name="tipop" value="T"><label>Terminación</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center"><span id="btnbuscar">Iniciar la búsqueda</span></td>
+        </tr>
+    </table>
+<hr>
+<div id="avisos">
+</div>
+<div id="consola">
+</div>
+</body>
+<script type="text/javascript" src="../JS/premios.js"></script>
+<script type="text/javascript" src="../JS/datos.js"></script>
+
+</html>

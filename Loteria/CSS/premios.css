@@ -1,0 +1,30 @@
+div {
+  border: 1px solid black;
+  width: 500px;
+  min-height: 20px;
+  padding: 10px;
+}
+
+tr {
+  height: 30px;
+  background-color: #9cff88;
+  border: solid 1em;
+}
+td
+
+#btnbuscar {
+  padding: 0.3em;
+  background-color: gainsboro;
+  border: 0.1em solid;
+  border-radius: 2em;
+}
+
+#avisos {
+  background-color: rgb(245, 245, 238);
+  font-size: 1.5em;
+}
+
+#consola {
+  background-color: gainsboro;
+  font-size: 1em;
+}
